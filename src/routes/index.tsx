@@ -86,7 +86,7 @@ function Header() {
     <header className="fixed inset-x-0 top-0 z-50 border-b border-border bg-background/80 backdrop-blur-md">
       <div className="mx-auto flex max-w-6xl items-center justify-between px-5 py-3">
         <a href="#top" className="flex items-center gap-2">
-          <img src={logoAsset.url} alt="NST Campus Connect logo" className="h-10 w-auto" />
+          <img src={logoAsset.url} alt="NST Campus Connect logo" className="h-10 w-auto mix-blend-screen" />
         </a>
         <nav className="hidden items-center gap-8 text-xs font-medium uppercase tracking-[0.2em] text-muted-foreground md:flex">
           <a href="#about" className="transition-colors hover:text-foreground">About</a>
@@ -125,7 +125,7 @@ function Hero() {
         <img
           src={logoAsset.url}
           alt="NST Campus Connect"
-          className="animate-float-slow mb-8 h-24 w-auto md:h-32"
+          className="animate-float-slow mb-8 h-24 w-auto mix-blend-screen md:h-32"
         />
         <h1 className="font-display text-[clamp(3rem,11vw,8.5rem)] leading-[0.92]">
           Campus
@@ -356,7 +356,7 @@ function Connect() {
         </div>
 
         <div className="mt-16 flex flex-col items-center gap-6">
-          <img src={logoAsset.url} alt="NST Campus Connect" className="h-16 w-auto" />
+          <img src={logoAsset.url} alt="NST Campus Connect" className="h-16 w-auto mix-blend-screen" />
           <p className="text-xs uppercase tracking-[0.3em] text-muted-foreground">
             © {new Date().getFullYear()} NST Campus Connect — Nelspruit, South Africa
           </p>
