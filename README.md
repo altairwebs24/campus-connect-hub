@@ -1,14 +1,16 @@
-# Welcome to your Lovable project
+# Campus Connect Hub
+
+Make a website for this with the first image being the logo and the next 2 is the information of the business and services. Instead of AI generated images use the media I uploaded, here's their link tree(https://linktr.ee/nstcampusconnect?). Use a mix  creative fonts that match the style of the business. Use a public bucket for the media and everything, lastly Add to the CSS to globally hide anything with the ID lovable-badge
 
 This project was built with [Lovable](https://lovable.dev).
 
 ## Build with Lovable
 
-Open your project in the [Lovable editor](https://lovable.dev) and keep building.
+Continue developing this project in the [Lovable editor](https://lovable.dev/projects/a915460c-c867-4cec-9667-206d8232e254).
 
 - **Ship faster**: describe what you want to build and Lovable handles the code.
-- **Stay in sync**: connect the project to GitHub and every change made in Lovable is committed straight to your repository.
-- **Full ownership**: this code is yours. Push to your repository and your changes sync back into Lovable, ready for your next prompt.
+- **Stay in sync**: every change made in Lovable is committed straight to this repository.
+- **Full ownership**: this code is yours. Push to `main` on GitHub and your changes sync back into Lovable, ready for your next prompt.
 
 ## Development
 
@@ -20,10 +22,3 @@ cd <repository-name>
 npm i
 npm run dev
 ```
-
-## Built with
-
-- TanStack Start
-- TypeScript
-- React
-- Tailwind CSS
