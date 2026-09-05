@@ -12,14 +12,17 @@ import {
   Sparkles,
 } from "lucide-react";
 
-import logoAsset from "../assets/logo.asset.json";
-import heroVideoAsset from "../assets/hero-video.asset.json";
-import eventVanAsset from "../assets/event-van.asset.json";
-import eventInterviewAsset from "../assets/event-interview.asset.json";
-import eventGroupAsset from "../assets/event-group.asset.json";
-import eventMicAsset from "../assets/event-mic.asset.json";
-import eventFrameAsset from "../assets/event-frame.asset.json";
-import eventSignsAsset from "../assets/event-signs.asset.json";
+const MEDIA_BASE =
+  "https://wvmtgvjbniykxxndcuvr.supabase.co/storage/v1/object/public/media";
+
+const logoAsset = { url: `${MEDIA_BASE}/logo.webp` };
+const heroVideoAsset = { url: `${MEDIA_BASE}/hero-video.mp4` };
+const eventVanAsset = { url: `${MEDIA_BASE}/event-van.jpg` };
+const eventInterviewAsset = { url: `${MEDIA_BASE}/event-interview.jpg` };
+const eventGroupAsset = { url: `${MEDIA_BASE}/event-group.jpg` };
+const eventMicAsset = { url: `${MEDIA_BASE}/event-mic.jpg` };
+const eventFrameAsset = { url: `${MEDIA_BASE}/event-frame.jpg` };
+const eventSignsAsset = { url: `${MEDIA_BASE}/event-signs.jpg` };
 
 const WHATSAPP = "https://wa.me/27707628520";
 const EMAIL = "mailto:Info@nstcampusconnect.co.za";
