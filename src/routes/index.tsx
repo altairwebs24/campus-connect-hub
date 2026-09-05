@@ -172,7 +172,7 @@ function About() {
     <section id="about" className="relative mx-auto max-w-6xl px-5 py-24 md:py-32">
       <p className="font-serif-accent text-xl text-muted-foreground">who we are</p>
       <h2 className="font-display mt-2 text-[clamp(3rem,9vw,7rem)] leading-[0.9]">
-        About<span className="text-outline"> Us.</span>
+        About <span className="text-outline">Us</span>
       </h2>
 
       <div className="mt-14 grid gap-5 md:grid-cols-2">
